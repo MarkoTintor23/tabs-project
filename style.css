@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f8;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.header {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #102a42;
+}
+
+.tabs-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.tabs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tab-btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: 2px solid #49a6e9;
+  border-radius: 10px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 12rem;
+}
+
+.tab-btn:hover,
+.tab-btn.active {
+  background-color: #49a6e9;
+  color: #fff;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tab-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+}
+
+.tabs-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tab-content {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #102a42;
+  margin-top: 1rem;
+}
+.header-p {
+  color: #4a5550;
+}
